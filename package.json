@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "node backend/server.js",
-    "server": "nodemon backend/server.js"
+    "server": "nodemon backend/server.js",
+    "build": "npm install && npm install --force --prefix frontend && npm run build --prefix frontend"
   },
   "author": "",
   "license": "ISC",
